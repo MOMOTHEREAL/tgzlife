@@ -1,0 +1,7 @@
+main: me.momo.tgz.life.Life
+version: SNAPSHOT-1.0
+name: Life
+author: MOMOTHEREAL
+commands:
+  job:
+    description: Learn more about the Job system.
