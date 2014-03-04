@@ -10,8 +10,9 @@ public class Job {
 	private Location p1;
 	private Location p2;
 	private Location spawn;
+	private String description;
 	
-	public Job(String name, JobType type, String creator, int minLevel, Location p1, Location p2, Location spawn){
+	public Job(String name, JobType type, String creator, int minLevel, Location p1, Location p2, Location spawn, String description){
 		this.name = name;
 		this.type = type;
 		this.creator = creator;
@@ -19,6 +20,7 @@ public class Job {
 		this.p1 = p1;
 		this.p2 = p2;
 		this.spawn = spawn;
+		this.description = description;
 	}
 
 	public JobType getType() {
@@ -75,6 +77,14 @@ public class Job {
 
 	public void setSpawn(Location spawn) {
 		this.spawn = spawn;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
 	}
 	
 	
