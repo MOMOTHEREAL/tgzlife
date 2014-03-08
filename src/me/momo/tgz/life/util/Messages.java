@@ -38,6 +38,10 @@ public class Messages {
 	public static String JOB_INFO_ERR_EXIST = PREFIX + "§cThat job does not exist.";
 	
 	public static String JOB_JOIN_INFO_WORK = PREFIX + "§aYou can now go working!";
+	public static String JOB_JOIN_INFO_CHANGE = PREFIX + "§aYou changed your job!";
+	public static String JOB_JOIN_ERR_WORKED = PREFIX + "§cYou can only work once a day!";
+	public static String JOB_JOIN_ERR_EXIST = PREFIX + "§cThat job does not exist!";
+	
 	
 	public static String JOB_REGION_POS1 = PREFIX + "§6Position 1 set.";
 	public static String JOB_REGION_POS2 = PREFIX + "§6Position 2 set.";

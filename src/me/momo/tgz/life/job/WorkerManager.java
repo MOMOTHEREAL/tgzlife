@@ -14,7 +14,7 @@ public class WorkerManager {
 		WorkerManager.workers = workers;
 	}
 	
-	public static Worker getJob(String name) {
+	public static Worker getWorker(String name) {
 		for (Worker worker : getWorkers()) {
 			if (worker.getName().equalsIgnoreCase(name)) {
 				return worker;
