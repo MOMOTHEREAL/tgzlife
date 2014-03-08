@@ -1,5 +1,8 @@
 package me.momo.tgz.life.job;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.bukkit.Location;
 
 public class Job {
@@ -86,7 +89,7 @@ public class Job {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	
+
 	
 	
 	

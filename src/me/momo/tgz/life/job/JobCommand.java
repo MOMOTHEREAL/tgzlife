@@ -17,7 +17,7 @@ public class JobCommand implements CommandExecutor {
 
 		if (!(args.length > 0)) {
 			s.sendMessage(Messages.PREFIX + "§3§lJob Help");
-			s.sendMessage("§8§l>§r§e /job create §3<name> <type> <level> <description> §4-§6 " + Messages.JOB_CREATE_DESC);
+			s.sendMessage("§8§l>§r§e /job create §3<name> <type cop:criminal:normal> <level (over 0)> <description> §4-§6 " + Messages.JOB_CREATE_DESC);
 			s.sendMessage("§8§l>§r§e /job delete §3<name> §4-§6 " + Messages.JOB_DELETE_DESC);
 			s.sendMessage("§8§l>§r§e /job info §3<name> §4-§6 " + Messages.JOB_INFO_DESC);
 			s.sendMessage("§8§l>§r§e /job wand §4-§6 " + Messages.JOB_WAND_DESC);
