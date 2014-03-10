@@ -13,6 +13,7 @@ public class Life extends JavaPlugin {
 		getServer().getPluginManager().registerEvents(new InteractListener(), this);
 		getCommand("job").setExecutor(new JobCommand());
 		JobTime jobtime = new JobTime(this);
+		jobtime.startTimer();
 	}
 	
 	@Override
